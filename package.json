@@ -1,0 +1,19 @@
+{
+  "name": "prismdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env PORT=3000 BROWSER=none CONTENT_BASE=wwwroot umi dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prismjs": "^1.14.0",
+    "prop-types": "^15.6.1",
+    "react-prism": "^4.3.2"
+  },
+  "devDependencies": {
+    "cross-env": "^5.1.5"
+  }
+}
